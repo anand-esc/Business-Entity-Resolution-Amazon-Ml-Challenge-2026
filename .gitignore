@@ -1,0 +1,24 @@
+# Ignore datasets
+Amazon_Ml Dataset/
+dataset/
+
+# Ignore large build artifacts and outputs
+build_out/
+output/
+*.parquet
+*.index
+*.csv
+*.tsv
+*.zip
+*.txt
+*.pkl
+
+# Ignore specific script
+scripts/colab_inference.py
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
